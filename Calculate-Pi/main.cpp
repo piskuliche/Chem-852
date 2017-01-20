@@ -1,5 +1,29 @@
 #include "main.h"
 
+//This is a simple, user friendly code for calculating digits of pi.
+//Compile with C++ 11 support
+//Note: This calculation takes a while, and runs for a long time (it does 1 * 10^12 insertions)
+//It creates one output file: calcpi.out
+//Copyright 2017 Ezekiel Piskulich All Rights Reserved
+//
+//
+//General Notes:
+//Uses the built in random number generator in C++
+//This isn't perfectly uniform - a good thing to add would be an option for
+//a more uniform random number generator. 
+//Outputs every 1*10^6 Steps
+//
+//Calculation has unit circle quadrant inscribed in a unit square
+//Calculates pi=4*N_in/N_out
+//____________
+//| |_  N_out|
+//|   |__    |
+//|      |_  |
+//|  N_in  |_|
+//|__________|
+
+
+
 double random_generator()
 {
     double random_number;
