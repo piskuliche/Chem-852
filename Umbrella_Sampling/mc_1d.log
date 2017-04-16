@@ -1,0 +1,8 @@
+Run_Parameters:
+dr = 0.5
+mc_steps = 1
+Final dr = 0.5
+acceptance ratio = 0
+<dr> = 2.6
+<dr^2> = 6.76
+<E> = 240.939
